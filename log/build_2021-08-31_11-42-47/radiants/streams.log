@@ -1,0 +1,21 @@
+[0.205s] Invoking command in '/home/manojbr/dev_ws/radiants': PYTHONPATH=/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/radiants build --build-base /home/manojbr/dev_ws/build/radiants/build install --prefix /home/manojbr/dev_ws/install/radiants --record /home/manojbr/dev_ws/build/radiants/install.log --single-version-externally-managed
+[0.378s] running egg_info
+[0.378s] writing ../build/radiants/radiants.egg-info/PKG-INFO
+[0.379s] writing dependency_links to ../build/radiants/radiants.egg-info/dependency_links.txt
+[0.379s] writing entry points to ../build/radiants/radiants.egg-info/entry_points.txt
+[0.379s] writing requirements to ../build/radiants/radiants.egg-info/requires.txt
+[0.379s] writing top-level names to ../build/radiants/radiants.egg-info/top_level.txt
+[0.406s] reading manifest file '../build/radiants/radiants.egg-info/SOURCES.txt'
+[0.406s] writing manifest file '../build/radiants/radiants.egg-info/SOURCES.txt'
+[0.407s] running build
+[0.407s] running build_py
+[0.407s] running install
+[0.407s] running install_lib
+[0.408s] running install_data
+[0.409s] running install_egg_info
+[0.410s] removing '/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info' (and everything under it)
+[0.410s] Copying ../build/radiants/radiants.egg-info to /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info
+[0.411s] running install_scripts
+[0.424s] Installing controller = radiants.controller:maindetector script to /home/manojbr/dev_ws/install/radiants/lib/radiants
+[0.424s] writing list of installed files to '/home/manojbr/dev_ws/build/radiants/install.log'
+[0.441s] Invoked command in '/home/manojbr/dev_ws/radiants' returned '0': PYTHONPATH=/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/radiants build --build-base /home/manojbr/dev_ws/build/radiants/build install --prefix /home/manojbr/dev_ws/install/radiants --record /home/manojbr/dev_ws/build/radiants/install.log --single-version-externally-managed

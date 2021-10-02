@@ -1,0 +1,3 @@
+[console_scripts]
+controller = radiants.controller:maindetector = radiants.detector:main
+

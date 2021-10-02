@@ -1,0 +1,2 @@
+Invoking command in '/home/manojbr/dev_ws/build/flipkart_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/manojbr/dev_ws/flipkart_msgs -DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/install/flipkart_msgs
+Invoked command in '/home/manojbr/dev_ws/build/flipkart_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/manojbr/dev_ws/flipkart_msgs -DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/install/flipkart_msgs

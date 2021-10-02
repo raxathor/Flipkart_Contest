@@ -1,0 +1,17 @@
+{
+  "package_name": "flipkart_msgs",
+  "output_dir": "/home/manojbr/dev_ws/build/flipkart_msgs/rosidl_generator_dds_idl/flipkart_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_generator_dds_idl/resource",
+  "idl_tuples": [
+    "/home/manojbr/dev_ws/build/flipkart_msgs/rosidl_adapter/flipkart_msgs:msg/Pose.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_dds_idl/__init__.py",
+    "/opt/ros/foxy/share/rosidl_generator_dds_idl/resource/action.idl.em",
+    "/opt/ros/foxy/share/rosidl_generator_dds_idl/resource/idl.idl.em",
+    "/opt/ros/foxy/share/rosidl_generator_dds_idl/resource/msg.idl.em",
+    "/opt/ros/foxy/share/rosidl_generator_dds_idl/resource/srv.idl.em",
+    "/home/manojbr/dev_ws/build/flipkart_msgs/rosidl_adapter/flipkart_msgs/msg/Pose.idl"
+  ]
+}

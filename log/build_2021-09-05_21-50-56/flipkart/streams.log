@@ -1,0 +1,26 @@
+[0.282s] Invoking command in '/home/manojbr/dev_ws/src/flipkart': PYTHONPATH=/home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/flipkart build --build-base /home/manojbr/dev_ws/build/flipkart/build install --prefix /home/manojbr/dev_ws/install/flipkart --record /home/manojbr/dev_ws/build/flipkart/install.log --single-version-externally-managed
+[0.537s] running egg_info
+[0.537s] writing ../../build/flipkart/flipkart.egg-info/PKG-INFO
+[0.537s] writing dependency_links to ../../build/flipkart/flipkart.egg-info/dependency_links.txt
+[0.538s] writing entry points to ../../build/flipkart/flipkart.egg-info/entry_points.txt
+[0.538s] writing requirements to ../../build/flipkart/flipkart.egg-info/requires.txt
+[0.538s] writing top-level names to ../../build/flipkart/flipkart.egg-info/top_level.txt
+[0.583s] reading manifest file '../../build/flipkart/flipkart.egg-info/SOURCES.txt'
+[0.584s] writing manifest file '../../build/flipkart/flipkart.egg-info/SOURCES.txt'
+[0.584s] running build
+[0.585s] running build_py
+[0.585s] copying flipkart/bigbrain.py -> /home/manojbr/dev_ws/build/flipkart/build/lib/flipkart
+[0.585s] running install
+[0.586s] running install_lib
+[0.587s] copying /home/manojbr/dev_ws/build/flipkart/build/lib/flipkart/bigbrain.py -> /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart
+[0.588s] byte-compiling /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart/bigbrain.py to bigbrain.cpython-38.pyc
+[0.590s] running install_data
+[0.591s] running install_egg_info
+[0.592s] removing '/home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart-0.0.0-py3.8.egg-info' (and everything under it)
+[0.593s] Copying ../../build/flipkart/flipkart.egg-info to /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart-0.0.0-py3.8.egg-info
+[0.593s] running install_scripts
+[0.610s] Installing bigbrain script to /home/manojbr/dev_ws/install/flipkart/lib/flipkart
+[0.610s] Installing detector script to /home/manojbr/dev_ws/install/flipkart/lib/flipkart
+[0.611s] Installing viper script to /home/manojbr/dev_ws/install/flipkart/lib/flipkart
+[0.611s] writing list of installed files to '/home/manojbr/dev_ws/build/flipkart/install.log'
+[0.640s] Invoked command in '/home/manojbr/dev_ws/src/flipkart' returned '0': PYTHONPATH=/home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/flipkart build --build-base /home/manojbr/dev_ws/build/flipkart/build install --prefix /home/manojbr/dev_ws/install/flipkart --record /home/manojbr/dev_ws/build/flipkart/install.log --single-version-externally-managed

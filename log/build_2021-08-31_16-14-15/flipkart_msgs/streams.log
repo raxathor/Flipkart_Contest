@@ -1,0 +1,36 @@
+[0.010s] Invoking command in '/home/manojbr/dev_ws/build/flipkart_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/manojbr/dev_ws/flipkart_msgs -DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/install/flipkart_msgs
+[1.806s] -- The C compiler identification is GNU 9.3.0
+[2.074s] -- The CXX compiler identification is GNU 9.3.0
+[2.464s] -- Check for working C compiler: /usr/bin/cc
+[2.957s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.961s] -- Detecting C compiler ABI info
+[3.020s] -- Detecting C compiler ABI info - done
+[3.030s] -- Detecting C compile features
+[3.030s] -- Detecting C compile features - done
+[3.036s] -- Check for working CXX compiler: /usr/bin/c++
+[3.100s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.100s] -- Detecting CXX compiler ABI info
+[3.176s] -- Detecting CXX compiler ABI info - done
+[3.190s] -- Detecting CXX compile features
+[3.191s] -- Detecting CXX compile features - done
+[3.194s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.261s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.261s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.571s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.601s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.634s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[7.307s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.347s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.463s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[7.463s]   rosidl_generate_interfaces() the passed file 'msg/Pose.msg' doesn't exist
+[7.463s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[7.463s]   '/home/manojbr/dev_ws/flipkart_msgs'
+[7.463s] Call Stack (most recent call first):
+[7.463s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[7.463s] 
+[7.463s] 
+[7.464s] -- Configuring incomplete, errors occurred!
+[7.464s] See also "/home/manojbr/dev_ws/build/flipkart_msgs/CMakeFiles/CMakeOutput.log".
+[7.470s] Invoked command in '/home/manojbr/dev_ws/build/flipkart_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/manojbr/dev_ws/flipkart_msgs -DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/install/flipkart_msgs

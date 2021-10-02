@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/radiants/radiants.egg-info/PKG-INFO
+writing dependency_links to ../../build/radiants/radiants.egg-info/dependency_links.txt
+writing entry points to ../../build/radiants/radiants.egg-info/entry_points.txt
+writing requirements to ../../build/radiants/radiants.egg-info/requires.txt
+writing top-level names to ../../build/radiants/radiants.egg-info/top_level.txt
+reading manifest file '../../build/radiants/radiants.egg-info/SOURCES.txt'
+writing manifest file '../../build/radiants/radiants.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/radiants/radiants.egg-info to /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info
+running install_scripts
+Installing controller = radiants.controller:maindetector script to /home/manojbr/dev_ws/install/radiants/lib/radiants
+writing list of installed files to '/home/manojbr/dev_ws/build/radiants/install.log'

@@ -1,0 +1,44 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from flipkart_msgs:msg/Pose.idl
+// generated code does not contain a copyright notice
+
+#ifndef __flipkart_msgs__msg__pose__idl__
+#define __flipkart_msgs__msg__pose__idl__
+
+
+module flipkart_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct Pose_ {
+long id0_;
+long x0_;
+long y0_;
+float yaw0_;
+long id1_;
+long x1_;
+long y1_;
+float yaw1_;
+long id2_;
+long x2_;
+long y2_;
+float yaw2_;
+long id3_;
+long x3_;
+long y3_;
+float yaw3_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module flipkart_msgs
+
+
+#endif  // __flipkart_msgs__msg__pose__idl__

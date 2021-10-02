@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/radiants/radiants.egg-info
+writing ../build/radiants/radiants.egg-info/PKG-INFO
+writing dependency_links to ../build/radiants/radiants.egg-info/dependency_links.txt
+writing entry points to ../build/radiants/radiants.egg-info/entry_points.txt
+writing requirements to ../build/radiants/radiants.egg-info/requires.txt
+writing top-level names to ../build/radiants/radiants.egg-info/top_level.txt
+writing manifest file '../build/radiants/radiants.egg-info/SOURCES.txt'
+reading manifest file '../build/radiants/radiants.egg-info/SOURCES.txt'
+writing manifest file '../build/radiants/radiants.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/manojbr/dev_ws/build/radiants/build
+creating /home/manojbr/dev_ws/build/radiants/build/lib
+creating /home/manojbr/dev_ws/build/radiants/build/lib/radiants
+copying radiants/controller.py -> /home/manojbr/dev_ws/build/radiants/build/lib/radiants
+copying radiants/__init__.py -> /home/manojbr/dev_ws/build/radiants/build/lib/radiants
+running install
+running install_lib
+creating /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants
+copying /home/manojbr/dev_ws/build/radiants/build/lib/radiants/controller.py -> /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants
+copying /home/manojbr/dev_ws/build/radiants/build/lib/radiants/__init__.py -> /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants
+byte-compiling /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants/controller.py to controller.cpython-38.pyc
+byte-compiling /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/manojbr/dev_ws/install/radiants/share/ament_index
+creating /home/manojbr/dev_ws/install/radiants/share/ament_index/resource_index
+creating /home/manojbr/dev_ws/install/radiants/share/ament_index/resource_index/packages
+copying resource/radiants -> /home/manojbr/dev_ws/install/radiants/share/ament_index/resource_index/packages
+copying package.xml -> /home/manojbr/dev_ws/install/radiants/share/radiants
+running install_egg_info
+Copying ../build/radiants/radiants.egg-info to /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info
+running install_scripts
+Installing controller script to /home/manojbr/dev_ws/install/radiants/lib/radiants
+writing list of installed files to '/home/manojbr/dev_ws/build/radiants/install.log'

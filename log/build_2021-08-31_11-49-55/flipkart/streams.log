@@ -1,0 +1,37 @@
+[0.204s] Invoking command in '/home/manojbr/dev_ws/flipkart': PYTHONPATH=/home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/flipkart build --build-base /home/manojbr/dev_ws/build/flipkart/build install --prefix /home/manojbr/dev_ws/install/flipkart --record /home/manojbr/dev_ws/build/flipkart/install.log --single-version-externally-managed
+[0.378s] running egg_info
+[0.379s] creating ../build/flipkart/flipkart.egg-info
+[0.379s] writing ../build/flipkart/flipkart.egg-info/PKG-INFO
+[0.379s] writing dependency_links to ../build/flipkart/flipkart.egg-info/dependency_links.txt
+[0.379s] writing entry points to ../build/flipkart/flipkart.egg-info/entry_points.txt
+[0.379s] writing requirements to ../build/flipkart/flipkart.egg-info/requires.txt
+[0.379s] writing top-level names to ../build/flipkart/flipkart.egg-info/top_level.txt
+[0.380s] writing manifest file '../build/flipkart/flipkart.egg-info/SOURCES.txt'
+[0.406s] reading manifest file '../build/flipkart/flipkart.egg-info/SOURCES.txt'
+[0.407s] writing manifest file '../build/flipkart/flipkart.egg-info/SOURCES.txt'
+[0.407s] running build
+[0.407s] running build_py
+[0.407s] creating /home/manojbr/dev_ws/build/flipkart/build
+[0.407s] creating /home/manojbr/dev_ws/build/flipkart/build/lib
+[0.407s] creating /home/manojbr/dev_ws/build/flipkart/build/lib/flipkart
+[0.407s] copying flipkart/detector.py -> /home/manojbr/dev_ws/build/flipkart/build/lib/flipkart
+[0.407s] copying flipkart/__init__.py -> /home/manojbr/dev_ws/build/flipkart/build/lib/flipkart
+[0.407s] running install
+[0.408s] running install_lib
+[0.409s] creating /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart
+[0.409s] copying /home/manojbr/dev_ws/build/flipkart/build/lib/flipkart/detector.py -> /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart
+[0.409s] copying /home/manojbr/dev_ws/build/flipkart/build/lib/flipkart/__init__.py -> /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart
+[0.409s] byte-compiling /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart/detector.py to detector.cpython-38.pyc
+[0.411s] byte-compiling /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart/__init__.py to __init__.cpython-38.pyc
+[0.411s] running install_data
+[0.411s] creating /home/manojbr/dev_ws/install/flipkart/share/ament_index
+[0.412s] creating /home/manojbr/dev_ws/install/flipkart/share/ament_index/resource_index
+[0.412s] creating /home/manojbr/dev_ws/install/flipkart/share/ament_index/resource_index/packages
+[0.412s] copying resource/flipkart -> /home/manojbr/dev_ws/install/flipkart/share/ament_index/resource_index/packages
+[0.412s] copying package.xml -> /home/manojbr/dev_ws/install/flipkart/share/flipkart
+[0.412s] running install_egg_info
+[0.413s] Copying ../build/flipkart/flipkart.egg-info to /home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages/flipkart-0.0.0-py3.8.egg-info
+[0.413s] running install_scripts
+[0.427s] Installing detector script to /home/manojbr/dev_ws/install/flipkart/lib/flipkart
+[0.427s] writing list of installed files to '/home/manojbr/dev_ws/build/flipkart/install.log'
+[0.443s] Invoked command in '/home/manojbr/dev_ws/flipkart' returned '0': PYTHONPATH=/home/manojbr/dev_ws/install/flipkart/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/flipkart build --build-base /home/manojbr/dev_ws/build/flipkart/build install --prefix /home/manojbr/dev_ws/install/flipkart --record /home/manojbr/dev_ws/build/flipkart/install.log --single-version-externally-managed

@@ -1,0 +1,689 @@
+[0.000000] (-) TimerEvent: {}
+[0.000459] (radiants) JobQueued: {'identifier': 'radiants', 'dependencies': OrderedDict()}
+[0.000731] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000912] (usb_camera_driver) JobQueued: {'identifier': 'usb_camera_driver', 'dependencies': OrderedDict()}
+[0.000950] (radiants) JobStarted: {'identifier': 'radiants'}
+[0.011724] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.016819] (usb_camera_driver) JobStarted: {'identifier': 'usb_camera_driver'}
+[0.100102] (-) TimerEvent: {}
+[0.200465] (-) TimerEvent: {}
+[0.207730] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.209152] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.209189] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/manojbr/dev_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/manojbr/dev_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manojbr'), ('SSH_AGENT_PID', '1958'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/manojbr/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/home/manojbr'), ('OLDPWD', '/home/manojbr/cam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/manojbr/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'manojbr'), ('JOURNAL_STREAM', '8:45948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manojbr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/manojbr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/manojbr-Strix-15-GL503GE:@/tmp/.ICE-unix/2000,unix/manojbr-Strix-15-GL503GE:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '98b69c396b524e17915385e1bed0c9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c0df0f77_1ffc_4b96_8717_3c4278ea714a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manojbr/dev_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy')]), 'shell': False}
+[0.212915] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'cmake'}
+[0.213092] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/manojbr/dev_ws/src/ros2_usb_camera', '-DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/install/usb_camera_driver'], 'cwd': '/home/manojbr/dev_ws/build/usb_camera_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manojbr'), ('SSH_AGENT_PID', '1958'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/manojbr/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/home/manojbr'), ('OLDPWD', '/home/manojbr/cam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/manojbr/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'manojbr'), ('JOURNAL_STREAM', '8:45948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manojbr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/manojbr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/manojbr-Strix-15-GL503GE:@/tmp/.ICE-unix/2000,unix/manojbr-Strix-15-GL503GE:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '98b69c396b524e17915385e1bed0c9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c0df0f77_1ffc_4b96_8717_3c4278ea714a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manojbr/dev_ws/build/usb_camera_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy')]), 'shell': False}
+[0.218041] (radiants) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/radiants', 'build', '--build-base', '/home/manojbr/dev_ws/build/radiants/build', 'install', '--prefix', '/home/manojbr/dev_ws/install/radiants', '--record', '/home/manojbr/dev_ws/build/radiants/install.log', '--single-version-externally-managed'], 'cwd': '/home/manojbr/dev_ws/src/radiants', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'manojbr', 'SSH_AGENT_PID': '1958', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/manojbr/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib', 'HOME': '/home/manojbr', 'OLDPWD': '/home/manojbr/cam_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-5.3.1', 'MANAGERPID': '1766', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/manojbr/dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'manojbr', 'JOURNAL_STREAM': '8:45948', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'manojbr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/manojbr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/manojbr-Strix-15-GL503GE:@/tmp/.ICE-unix/2000,unix/manojbr-Strix-15-GL503GE:/tmp/.ICE-unix/2000', 'INVOCATION_ID': '98b69c396b524e17915385e1bed0c9e5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c0df0f77_1ffc_4b96_8717_3c4278ea714a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/manojbr/dev_ws/build/radiants', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:/home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/manojbr/dev_ws/install/turtlesim'}, 'shell': False}
+[0.266667] (usb_camera_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.268549] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.273225] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__dds_connext_idl\n'}
+[0.277299] (turtlesim) StdoutLine: {'line': b'[  7%] Built target turtlesim__rosidl_generator_c\n'}
+[0.300607] (-) TimerEvent: {}
+[0.304271] (turtlesim) StdoutLine: {'line': b'[ 15%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.304501] (turtlesim) StdoutLine: {'line': b'[ 19%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.309538] (turtlesim) StdoutLine: {'line': b'[ 24%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.312022] (turtlesim) StdoutLine: {'line': b'[ 29%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.313031] (turtlesim) StdoutLine: {'line': b'[ 35%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.330647] (usb_camera_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.334577] (usb_camera_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.337621] (turtlesim) StdoutLine: {'line': b'[ 40%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.384279] (turtlesim) StdoutLine: {'line': b'[ 60%] Built target turtlesim__rosidl_typesupport_connext_cpp\n'}
+[0.391378] (usb_camera_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.392155] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400700] (-) TimerEvent: {}
+[0.438788] (radiants) StdoutLine: {'line': b'running egg_info\n'}
+[0.439298] (radiants) StdoutLine: {'line': b'writing ../../build/radiants/radiants.egg-info/PKG-INFO\n'}
+[0.439560] (radiants) StdoutLine: {'line': b'writing dependency_links to ../../build/radiants/radiants.egg-info/dependency_links.txt\n'}
+[0.439739] (radiants) StdoutLine: {'line': b'writing entry points to ../../build/radiants/radiants.egg-info/entry_points.txt\n'}
+[0.439915] (radiants) StdoutLine: {'line': b'writing requirements to ../../build/radiants/radiants.egg-info/requires.txt\n'}
+[0.440077] (radiants) StdoutLine: {'line': b'writing top-level names to ../../build/radiants/radiants.egg-info/top_level.txt\n'}
+[0.449892] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.459961] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.460277] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.462340] (usb_camera_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.467240] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__rosidl_typesupport_connext_c\n'}
+[0.469728] (radiants) StdoutLine: {'line': b"reading manifest file '../../build/radiants/radiants.egg-info/SOURCES.txt'\n"}
+[0.470444] (radiants) StdoutLine: {'line': b"writing manifest file '../../build/radiants/radiants.egg-info/SOURCES.txt'\n"}
+[0.470648] (radiants) StdoutLine: {'line': b'running build\n'}
+[0.470732] (radiants) StdoutLine: {'line': b'running build_py\n'}
+[0.470873] (radiants) StdoutLine: {'line': b'running install\n'}
+[0.471569] (radiants) StdoutLine: {'line': b'running install_lib\n'}
+[0.472690] (radiants) StdoutLine: {'line': b'running install_data\n'}
+[0.473206] (radiants) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.474583] (radiants) StdoutLine: {'line': b"removing '/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.474905] (radiants) StdoutLine: {'line': b'Copying ../../build/radiants/radiants.egg-info to /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info\n'}
+[0.475615] (radiants) StdoutLine: {'line': b'running install_scripts\n'}
+[0.485802] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim\n'}
+[0.493840] (radiants) StdoutLine: {'line': b'Installing controller script to /home/manojbr/dev_ws/install/radiants/lib/radiants\n'}
+[0.494316] (radiants) StdoutLine: {'line': b"writing list of installed files to '/home/manojbr/dev_ws/build/radiants/install.log'\n"}
+[0.500826] (-) TimerEvent: {}
+[0.519244] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target turtlesim__py\n'}
+[0.525566] (radiants) CommandEnded: {'returncode': 0}
+[0.533776] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtle_teleop_key\n'}
+[0.533953] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target mimic\n'}
+[0.534116] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target draw_square\n'}
+[0.539336] (radiants) JobEnded: {'identifier': 'radiants', 'rc': 0}
+[0.547385] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim_node\n'}
+[0.550099] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[0.552822] (usb_camera_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.553961] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.576350] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.576680] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.582532] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.582749] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_connext_c__pyext\n'}
+[0.592870] (turtlesim) CommandEnded: {'returncode': 0}
+[0.600944] (-) TimerEvent: {}
+[0.624946] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.636019] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.636493] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.638272] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.659669] (usb_camera_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.659994] (usb_camera_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700995] (-) TimerEvent: {}
+[0.778186] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.788252] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/manojbr/dev_ws/build/turtlesim'], 'cwd': '/home/manojbr/dev_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manojbr'), ('SSH_AGENT_PID', '1958'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/manojbr/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/home/manojbr'), ('OLDPWD', '/home/manojbr/cam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/manojbr/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'manojbr'), ('JOURNAL_STREAM', '8:45948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manojbr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/manojbr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/manojbr-Strix-15-GL503GE:@/tmp/.ICE-unix/2000,unix/manojbr-Strix-15-GL503GE:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '98b69c396b524e17915385e1bed0c9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c0df0f77_1ffc_4b96_8717_3c4278ea714a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manojbr/dev_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy')]), 'shell': False}
+[0.796033] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.796539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.796624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.796690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.796753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.796815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.796876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.796937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.797094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.797153] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.797213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.797274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[0.797335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.797395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[0.797456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.797516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.797601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.797662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.797722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.797782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.797912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.797975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[0.798035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.798095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.798154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.798248] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[0.798307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[0.798366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[0.798425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[0.798485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[0.798544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.798789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.798850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.798909] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[0.798968] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[0.799193] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.799265] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[0.799330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[0.799390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[0.799449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[0.799508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[0.799568] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[0.799628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[0.799689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.799780] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.799841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.799901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.799959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.800017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.800077] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[0.800136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.800196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.800255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.800315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.800374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.800434] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_connext_c.h\n'}
+[0.800559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_connext_c.h\n'}
+[0.800619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_connext_c.h\n'}
+[0.800777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext\n'}
+[0.800838] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_connext_c.h\n'}
+[0.800899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_connext_c.h\n'}
+[0.800960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.801098] (-) TimerEvent: {}
+[0.801299] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_connext_c.h\n'}
+[0.801429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext\n'}
+[0.801494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_connext_c__visibility_control.h\n'}
+[0.801578] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_connext_c.h\n'}
+[0.801635] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.801689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_connext_c.h\n'}
+[0.801742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/dds_connext\n'}
+[0.801795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_connext_c.so\n'}
+[0.801884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/action/dds_connext\n'}
+[0.801939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/action/dds_connext/RotateAbsolute_.idl\n'}
+[0.802004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/msg/dds_connext\n'}
+[0.802157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/msg/dds_connext/Pose_.idl\n'}
+[0.802312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/msg/dds_connext/Color_.idl\n'}
+[0.802462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/dds_connext\n'}
+[0.802619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/dds_connext/TeleportAbsolute_.idl\n'}
+[0.802745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/dds_connext/Kill_.idl\n'}
+[0.802896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/dds_connext/TeleportRelative_.idl\n'}
+[0.803040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/dds_connext/Spawn_.idl\n'}
+[0.803100] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/dds_connext/SetPen_.idl\n'}
+[0.803154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.803212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.803290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative__rosidl_typesupport_connext_cpp.hpp\n'}
+[0.803343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute__rosidl_typesupport_connext_cpp.hpp\n'}
+[0.803395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/spawn__rosidl_typesupport_connext_cpp.hpp\n'}
+[0.803447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext\n'}
+[0.803498] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Spawn_Plugin.cxx\n'}
+[0.803574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportAbsolute_Support.cxx\n'}
+[0.803632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Kill_Support.cxx\n'}
+[0.803683] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Kill_Support.h\n'}
+[0.803759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Spawn_Plugin.h\n'}
+[0.803860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportAbsolute_Plugin.h\n'}
+[0.803914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Spawn_.h\n'}
+[0.803966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportAbsolute_Plugin.cxx\n'}
+[0.804022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Spawn_Support.h\n'}
+[0.804075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Spawn_Support.cxx\n'}
+[0.804130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportRelative_Support.h\n'}
+[0.804181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Kill_Plugin.cxx\n'}
+[0.804232] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Kill_.cxx\n'}
+[0.804283] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportRelative_Plugin.cxx\n'}
+[0.804335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/SetPen_Support.h\n'}
+[0.804386] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/SetPen_.h\n'}
+[0.804438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportRelative_.h\n'}
+[0.804488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportRelative_.cxx\n'}
+[0.804539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportRelative_Plugin.h\n'}
+[0.804590] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Spawn_.cxx\n'}
+[0.804640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportAbsolute_.cxx\n'}
+[0.804691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportRelative_Support.cxx\n'}
+[0.804742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportAbsolute_.h\n'}
+[0.804793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Kill_Plugin.h\n'}
+[0.804849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/SetPen_Support.cxx\n'}
+[0.804901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/SetPen_Plugin.cxx\n'}
+[0.804952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/SetPen_Plugin.h\n'}
+[0.805008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/Kill_.h\n'}
+[0.805064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/TeleportAbsolute_Support.h\n'}
+[0.805114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/dds_connext/SetPen_.cxx\n'}
+[0.805165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/kill__rosidl_typesupport_connext_cpp.hpp\n'}
+[0.805217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen__rosidl_typesupport_connext_cpp.hpp\n'}
+[0.805268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.805320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext\n'}
+[0.805372] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Color_Plugin.h\n'}
+[0.805424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Color_.cxx\n'}
+[0.805474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Pose_Plugin.h\n'}
+[0.805529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Color_Support.h\n'}
+[0.805579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Color_.h\n'}
+[0.805630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Pose_.cxx\n'}
+[0.805680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Color_Support.cxx\n'}
+[0.805731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Color_Plugin.cxx\n'}
+[0.805783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Pose_.h\n'}
+[0.805833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Pose_Support.h\n'}
+[0.805886] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Pose_Plugin.cxx\n'}
+[0.805938] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/dds_connext/Pose_Support.cxx\n'}
+[0.805988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/pose__rosidl_typesupport_connext_cpp.hpp\n'}
+[0.806039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/color__rosidl_typesupport_connext_cpp.hpp\n'}
+[0.806089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_connext_cpp__visibility_control.h\n'}
+[0.806140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.806190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/dds_connext\n'}
+[0.806240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/dds_connext/RotateAbsolute_.h\n'}
+[0.806291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/dds_connext/RotateAbsolute_Support.cxx\n'}
+[0.806342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/dds_connext/RotateAbsolute_Plugin.cxx\n'}
+[0.806393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/dds_connext/RotateAbsolute_Support.h\n'}
+[0.806444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/dds_connext/RotateAbsolute_Plugin.h\n'}
+[0.806495] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/dds_connext/RotateAbsolute_.cxx\n'}
+[0.806545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute__rosidl_typesupport_connext_cpp.hpp\n'}
+[0.806596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_connext_cpp.so\n'}
+[0.806647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.806698] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.806750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.806801] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.806862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.806913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.806964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.807117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.807168] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807219] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.807323] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.807373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.807424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.807525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.807576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.807627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.807681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.807733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.807784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.807835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.807885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.807935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.807987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.808038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.808089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.808140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.808196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.808247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.808298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.808349] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.808400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[0.808451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.808503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.808555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.808606] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.808658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.808709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.808760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.808810] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.808869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.808921] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.808971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.809041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.809096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.809147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.809197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.809247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.809297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.809347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.809398] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.809449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.809504] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[0.809559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.809611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.809662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.809712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.809762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.809812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.809863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.809914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.809965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.810015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.810066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.810116] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.810167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.810217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.810268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.810318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.810369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.810420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.810471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.810522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.810573] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.810623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.810673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.810724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.810775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.810843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[0.810894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[0.810948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[0.810998] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[0.811048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.811098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.811147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.811197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.811247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.811297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.811347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.811400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.811452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.811502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[0.811552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[0.811602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.811652] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.811703] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.811754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.811805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.811857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[0.811908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim\n'}
+[0.811958] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.812008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.812058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[0.812109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[0.812159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812210] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[0.812366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[0.812415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[0.812515] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.812616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.812667] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[0.812717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[0.812819] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.812925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.812976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.813046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[0.813098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.813148] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.813199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.813252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.813302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[0.831952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[0.832232] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[0.832327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[0.832425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[0.832480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[0.832532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[0.832596] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[0.832676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[0.832728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[0.832781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[0.832833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[0.832884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[0.832936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[0.832987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[0.833065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[0.833118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[0.833169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[0.833221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[0.833274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[0.833333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[0.833393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[0.833474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[0.833525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.833577] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.833920] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.834448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.834875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[0.835111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[0.835203] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[0.835341] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[0.835424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[0.835616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[0.835682] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[0.835785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[0.835864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[0.835941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[0.836008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[0.836084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[0.836150] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[0.836225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[0.836277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[0.836328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[0.836379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[0.836444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[0.836496] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[0.836547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[0.836599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[0.836650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[0.836701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[0.836766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[0.836818] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[0.836869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[0.836921] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[0.836971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[0.837035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[0.837108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[0.837449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[0.837650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/images\n'}
+[0.837758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[0.837870] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[0.837947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[0.838014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[0.838093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[0.838160] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[0.838239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/launch\n'}
+[0.838318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[0.838385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[0.838437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[0.838501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[0.838553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[0.838604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[0.838681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[0.838742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[0.838807] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[0.838875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[0.838927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[0.838992] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[0.839057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[0.839109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[0.839175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.839228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.839292] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.839359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[0.839412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.839476] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[0.839543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.839608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.839687] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[0.839750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.839825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[0.839892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.839975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.840028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.840079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.840130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.840180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.840231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[0.840282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[0.840334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/manojbr/dev_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[0.841670] (turtlesim) CommandEnded: {'returncode': 0}
+[0.867967] (usb_camera_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.901184] (-) TimerEvent: {}
+[0.975918] (usb_camera_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.983911] (usb_camera_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.001250] (-) TimerEvent: {}
+[1.008235] (usb_camera_driver) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[1.040842] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[1.101412] (-) TimerEvent: {}
+[1.201921] (-) TimerEvent: {}
+[1.302310] (-) TimerEvent: {}
+[1.402901] (-) TimerEvent: {}
+[1.503461] (-) TimerEvent: {}
+[1.604019] (-) TimerEvent: {}
+[1.704526] (-) TimerEvent: {}
+[1.804767] (-) TimerEvent: {}
+[1.905051] (-) TimerEvent: {}
+[2.005313] (-) TimerEvent: {}
+[2.105602] (-) TimerEvent: {}
+[2.205888] (-) TimerEvent: {}
+[2.306330] (-) TimerEvent: {}
+[2.406643] (-) TimerEvent: {}
+[2.507257] (-) TimerEvent: {}
+[2.607622] (-) TimerEvent: {}
+[2.708245] (-) TimerEvent: {}
+[2.808780] (-) TimerEvent: {}
+[2.909308] (-) TimerEvent: {}
+[3.009882] (-) TimerEvent: {}
+[3.110146] (-) TimerEvent: {}
+[3.178618] (usb_camera_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.210263] (-) TimerEvent: {}
+[3.234213] (usb_camera_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.310421] (-) TimerEvent: {}
+[3.342271] (usb_camera_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.410510] (-) TimerEvent: {}
+[3.445694] (usb_camera_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.461669] (usb_camera_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.489782] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.510697] (-) TimerEvent: {}
+[3.587047] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.587290] (usb_camera_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.610785] (-) TimerEvent: {}
+[3.648751] (usb_camera_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.648998] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.710975] (-) TimerEvent: {}
+[3.765842] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.766262] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.811094] (-) TimerEvent: {}
+[3.854412] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.855974] (usb_camera_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.911271] (-) TimerEvent: {}
+[4.011848] (-) TimerEvent: {}
+[4.112076] (-) TimerEvent: {}
+[4.130169] (usb_camera_driver) StdoutLine: {'line': b'-- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[4.212238] (-) TimerEvent: {}
+[4.287131] (usb_camera_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.312324] (-) TimerEvent: {}
+[4.412671] (-) TimerEvent: {}
+[4.426428] (usb_camera_driver) StdoutLine: {'line': b'-- Found camera_info_manager: 2.3.0 (/opt/ros/foxy/share/camera_info_manager/cmake)\n'}
+[4.452548] (usb_camera_driver) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[4.512856] (-) TimerEvent: {}
+[4.513579] (usb_camera_driver) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[4.613092] (-) TimerEvent: {}
+[4.654571] (usb_camera_driver) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4") \n'}
+[4.713133] (-) TimerEvent: {}
+[4.740260] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.787978] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[4.805076] (usb_camera_driver) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[4.812973] (usb_camera_driver) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[4.813362] (-) TimerEvent: {}
+[4.913846] (-) TimerEvent: {}
+[4.968561] (usb_camera_driver) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[4.975752] (usb_camera_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.014009] (-) TimerEvent: {}
+[5.114335] (-) TimerEvent: {}
+[5.214800] (-) TimerEvent: {}
+[5.217340] (usb_camera_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[5.218874] (usb_camera_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/manojbr/dev_ws/build/usb_camera_driver\n'}
+[5.226237] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[5.228000] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'build'}
+[5.228161] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/manojbr/dev_ws/build/usb_camera_driver', '--', '-j8', '-l8'], 'cwd': '/home/manojbr/dev_ws/build/usb_camera_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manojbr'), ('SSH_AGENT_PID', '1958'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/manojbr/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/home/manojbr'), ('OLDPWD', '/home/manojbr/cam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/manojbr/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'manojbr'), ('JOURNAL_STREAM', '8:45948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manojbr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/manojbr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/manojbr-Strix-15-GL503GE:@/tmp/.ICE-unix/2000,unix/manojbr-Strix-15-GL503GE:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '98b69c396b524e17915385e1bed0c9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c0df0f77_1ffc_4b96_8717_3c4278ea714a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manojbr/dev_ws/build/usb_camera_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy')]), 'shell': False}
+[5.262625] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[5.262801] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[5.262860] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver\x1b[0m\n'}
+[5.314889] (-) TimerEvent: {}
+[5.415292] (-) TimerEvent: {}
+[5.469939] (usb_camera_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[5.470793] (usb_camera_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[5.515412] (-) TimerEvent: {}
+[5.615862] (-) TimerEvent: {}
+[5.716296] (-) TimerEvent: {}
+[5.816910] (-) TimerEvent: {}
+[5.917514] (-) TimerEvent: {}
+[6.018093] (-) TimerEvent: {}
+[6.118664] (-) TimerEvent: {}
+[6.219166] (-) TimerEvent: {}
+[6.319429] (-) TimerEvent: {}
+[6.419735] (-) TimerEvent: {}
+[6.520001] (-) TimerEvent: {}
+[6.620258] (-) TimerEvent: {}
+[6.651572] (usb_camera_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/usb_camera_driver.dir/src/usb_camera_driver.cpp.o\x1b[0m\n'}
+[6.714685] (usb_camera_driver) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[6.720378] (-) TimerEvent: {}
+[6.820691] (-) TimerEvent: {}
+[6.831385] (usb_camera_driver) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[6.920819] (-) TimerEvent: {}
+[7.021126] (-) TimerEvent: {}
+[7.121400] (-) TimerEvent: {}
+[7.221683] (-) TimerEvent: {}
+[7.321957] (-) TimerEvent: {}
+[7.422252] (-) TimerEvent: {}
+[7.522528] (-) TimerEvent: {}
+[7.622800] (-) TimerEvent: {}
+[7.723077] (-) TimerEvent: {}
+[7.823350] (-) TimerEvent: {}
+[7.923618] (-) TimerEvent: {}
+[8.023904] (-) TimerEvent: {}
+[8.124180] (-) TimerEvent: {}
+[8.224457] (-) TimerEvent: {}
+[8.324728] (-) TimerEvent: {}
+[8.425034] (-) TimerEvent: {}
+[8.525322] (-) TimerEvent: {}
+[8.625601] (-) TimerEvent: {}
+[8.725870] (-) TimerEvent: {}
+[8.822491] (usb_camera_driver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.825955] (-) TimerEvent: {}
+[8.870760] (usb_camera_driver) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[8.926093] (-) TimerEvent: {}
+[9.015300] (usb_camera_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libusb_camera_driver.so\x1b[0m\n'}
+[9.026200] (-) TimerEvent: {}
+[9.126529] (-) TimerEvent: {}
+[9.227141] (-) TimerEvent: {}
+[9.327727] (-) TimerEvent: {}
+[9.428323] (-) TimerEvent: {}
+[9.528909] (-) TimerEvent: {}
+[9.629508] (-) TimerEvent: {}
+[9.730101] (-) TimerEvent: {}
+[9.830685] (-) TimerEvent: {}
+[9.931265] (-) TimerEvent: {}
+[10.031839] (-) TimerEvent: {}
+[10.132418] (-) TimerEvent: {}
+[10.232997] (-) TimerEvent: {}
+[10.333604] (-) TimerEvent: {}
+[10.434196] (-) TimerEvent: {}
+[10.534714] (-) TimerEvent: {}
+[10.616178] (usb_camera_driver) StdoutLine: {'line': b'[ 60%] Built target usb_camera_driver\n'}
+[10.624592] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver_node\x1b[0m\n'}
+[10.624740] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver_tests\x1b[0m\n'}
+[10.634810] (-) TimerEvent: {}
+[10.669892] (usb_camera_driver) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/usb_camera_driver_node.dir/src/usb_camera_driver_node.cpp.o\x1b[0m\n'}
+[10.690486] (usb_camera_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object test/CMakeFiles/usb_camera_driver_tests.dir/usb_camera_driver_tests.cpp.o\x1b[0m\n'}
+[10.734934] (-) TimerEvent: {}
+[10.835225] (-) TimerEvent: {}
+[10.935526] (-) TimerEvent: {}
+[11.035815] (-) TimerEvent: {}
+[11.136108] (-) TimerEvent: {}
+[11.236405] (-) TimerEvent: {}
+[11.336694] (-) TimerEvent: {}
+[11.437032] (-) TimerEvent: {}
+[11.537329] (-) TimerEvent: {}
+[11.637619] (-) TimerEvent: {}
+[11.737910] (-) TimerEvent: {}
+[11.838222] (-) TimerEvent: {}
+[11.938547] (-) TimerEvent: {}
+[12.038850] (-) TimerEvent: {}
+[12.139143] (-) TimerEvent: {}
+[12.239435] (-) TimerEvent: {}
+[12.339738] (-) TimerEvent: {}
+[12.440070] (-) TimerEvent: {}
+[12.537385] (usb_camera_driver) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable usb_camera_driver_node\x1b[0m\n'}
+[12.540173] (-) TimerEvent: {}
+[12.640495] (-) TimerEvent: {}
+[12.740876] (-) TimerEvent: {}
+[12.838793] (usb_camera_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable usb_camera_driver_tests\x1b[0m\n'}
+[12.840983] (-) TimerEvent: {}
+[12.941240] (-) TimerEvent: {}
+[13.041667] (-) TimerEvent: {}
+[13.141994] (-) TimerEvent: {}
+[13.242689] (-) TimerEvent: {}
+[13.343262] (-) TimerEvent: {}
+[13.443843] (-) TimerEvent: {}
+[13.544415] (-) TimerEvent: {}
+[13.644960] (-) TimerEvent: {}
+[13.745502] (-) TimerEvent: {}
+[13.846093] (-) TimerEvent: {}
+[13.946665] (-) TimerEvent: {}
+[14.047257] (-) TimerEvent: {}
+[14.147835] (-) TimerEvent: {}
+[14.248422] (-) TimerEvent: {}
+[14.348982] (-) TimerEvent: {}
+[14.449389] (-) TimerEvent: {}
+[14.549924] (-) TimerEvent: {}
+[14.650317] (-) TimerEvent: {}
+[14.736985] (usb_camera_driver) StdoutLine: {'line': b'[100%] Built target usb_camera_driver_node\n'}
+[14.750443] (-) TimerEvent: {}
+[14.775047] (usb_camera_driver) StdoutLine: {'line': b'[100%] Built target usb_camera_driver_tests\n'}
+[14.785510] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[14.806720] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'install'}
+[14.807028] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/manojbr/dev_ws/build/usb_camera_driver'], 'cwd': '/home/manojbr/dev_ws/build/usb_camera_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manojbr'), ('SSH_AGENT_PID', '1958'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/manojbr/dev_ws/install/turtlesim/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/home/manojbr'), ('OLDPWD', '/home/manojbr/cam_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/manojbr/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'manojbr'), ('JOURNAL_STREAM', '8:45948'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manojbr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/manojbr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/manojbr-Strix-15-GL503GE:@/tmp/.ICE-unix/2000,unix/manojbr-Strix-15-GL503GE:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '98b69c396b524e17915385e1bed0c9e5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c0df0f77_1ffc_4b96_8717_3c4278ea714a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manojbr/dev_ws/build/usb_camera_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/manojbr/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/manojbr/dev_ws/install/turtlesim:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy')]), 'shell': False}
+[14.815316] (usb_camera_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.815516] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/lib/libusb_camera_driver.so\n'}
+[14.816155] (usb_camera_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/manojbr/dev_ws/install/usb_camera_driver/lib/libusb_camera_driver.so" to ""\n'}
+[14.816353] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node\n'}
+[14.816677] (usb_camera_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/manojbr/dev_ws/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node" to ""\n'}
+[14.816819] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/launch\n'}
+[14.816893] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_node.launch.py\n'}
+[14.816964] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_component.launch.py\n'}
+[14.817059] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/config\n'}
+[14.817115] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/config/config.yaml\n'}
+[14.817168] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/config/camera.yaml\n'}
+[14.817234] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/ament_index/resource_index/package_run_dependencies/usb_camera_driver\n'}
+[14.817336] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/ament_index/resource_index/parent_prefix_path/usb_camera_driver\n'}
+[14.817507] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.sh\n'}
+[14.817687] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.dsv\n'}
+[14.817936] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.sh\n'}
+[14.818155] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/environment/path.dsv\n'}
+[14.818237] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.bash\n'}
+[14.818301] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.sh\n'}
+[14.818370] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.zsh\n'}
+[14.818440] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/local_setup.dsv\n'}
+[14.818493] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/package.dsv\n'}
+[14.818560] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/ament_index/resource_index/packages/usb_camera_driver\n'}
+[14.818661] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/ament_index/resource_index/rclcpp_components/usb_camera_driver\n'}
+[14.818787] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig.cmake\n'}
+[14.818856] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig-version.cmake\n'}
+[14.818950] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/manojbr/dev_ws/install/usb_camera_driver/share/usb_camera_driver/package.xml\n'}
+[14.820392] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[14.850554] (-) TimerEvent: {}
+[14.856700] (usb_camera_driver) JobEnded: {'identifier': 'usb_camera_driver', 'rc': 0}
+[14.857224] (-) EventReactorShutdown: {}

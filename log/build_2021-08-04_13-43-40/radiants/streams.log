@@ -1,0 +1,24 @@
+[0.204s] Invoking command in '/home/manojbr/dev_ws/radiants': PYTHONPATH=/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/radiants build --build-base /home/manojbr/dev_ws/build/radiants/build install --prefix /home/manojbr/dev_ws/install/radiants --record /home/manojbr/dev_ws/build/radiants/install.log --single-version-externally-managed
+[0.380s] running egg_info
+[0.381s] writing ../build/radiants/radiants.egg-info/PKG-INFO
+[0.381s] writing dependency_links to ../build/radiants/radiants.egg-info/dependency_links.txt
+[0.381s] writing entry points to ../build/radiants/radiants.egg-info/entry_points.txt
+[0.381s] writing requirements to ../build/radiants/radiants.egg-info/requires.txt
+[0.381s] writing top-level names to ../build/radiants/radiants.egg-info/top_level.txt
+[0.408s] reading manifest file '../build/radiants/radiants.egg-info/SOURCES.txt'
+[0.409s] writing manifest file '../build/radiants/radiants.egg-info/SOURCES.txt'
+[0.409s] running build
+[0.409s] running build_py
+[0.409s] copying radiants/controller.py -> /home/manojbr/dev_ws/build/radiants/build/lib/radiants
+[0.409s] running install
+[0.410s] running install_lib
+[0.410s] copying /home/manojbr/dev_ws/build/radiants/build/lib/radiants/controller.py -> /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants
+[0.411s] byte-compiling /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants/controller.py to controller.cpython-38.pyc
+[0.412s] running install_data
+[0.412s] running install_egg_info
+[0.413s] removing '/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info' (and everything under it)
+[0.413s] Copying ../build/radiants/radiants.egg-info to /home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages/radiants-0.0.0-py3.8.egg-info
+[0.414s] running install_scripts
+[0.427s] Installing controller script to /home/manojbr/dev_ws/install/radiants/lib/radiants
+[0.427s] writing list of installed files to '/home/manojbr/dev_ws/build/radiants/install.log'
+[0.444s] Invoked command in '/home/manojbr/dev_ws/radiants' returned '0': PYTHONPATH=/home/manojbr/dev_ws/install/radiants/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/radiants build --build-base /home/manojbr/dev_ws/build/radiants/build install --prefix /home/manojbr/dev_ws/install/radiants --record /home/manojbr/dev_ws/build/radiants/install.log --single-version-externally-managed

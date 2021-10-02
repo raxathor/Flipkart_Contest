@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (-) JobUnselected: {'identifier': 'flipkart'}
+[0.000119] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000139] (flipkart_msgs) JobQueued: {'identifier': 'flipkart_msgs', 'dependencies': OrderedDict()}
+[0.000157] (flipkart_msgs) JobStarted: {'identifier': 'flipkart_msgs'}
+[0.008949] (flipkart_msgs) JobProgress: {'identifier': 'flipkart_msgs', 'progress': 'cmake'}
+[0.009183] (flipkart_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/manojbr/dev_ws/flipkart_msgs', '-DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/install/flipkart_msgs'], 'cwd': '/home/manojbr/dev_ws/build/flipkart_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'manojbr'), ('SSH_AGENT_PID', '2000'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/home/manojbr'), ('OLDPWD', '/home/manojbr'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('MANAGERPID', '1803'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'manojbr'), ('JOURNAL_STREAM', '8:49429'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'manojbr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/manojbr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/manojbr-Strix-15-GL503GE:@/tmp/.ICE-unix/2042,unix/manojbr-Strix-15-GL503GE:/tmp/.ICE-unix/2042'), ('INVOCATION_ID', 'f59ff964e90f4155bf397ae77edb5e45'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/07764f41_7568_49ef_b1a0_05f97f107ca7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1072'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/manojbr/dev_ws/build/flipkart_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099551] (-) TimerEvent: {}
+[0.200412] (-) TimerEvent: {}
+[0.301042] (-) TimerEvent: {}
+[0.401776] (-) TimerEvent: {}
+[0.502290] (-) TimerEvent: {}
+[0.602809] (-) TimerEvent: {}
+[0.703357] (-) TimerEvent: {}
+[0.803925] (-) TimerEvent: {}
+[0.904476] (-) TimerEvent: {}
+[1.005038] (-) TimerEvent: {}
+[1.105577] (-) TimerEvent: {}
+[1.206082] (-) TimerEvent: {}
+[1.306668] (-) TimerEvent: {}
+[1.407221] (-) TimerEvent: {}
+[1.507713] (-) TimerEvent: {}
+[1.608346] (-) TimerEvent: {}
+[1.708903] (-) TimerEvent: {}
+[1.805866] (flipkart_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.809024] (-) TimerEvent: {}
+[1.909421] (-) TimerEvent: {}
+[2.010004] (-) TimerEvent: {}
+[2.073821] (flipkart_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.110195] (-) TimerEvent: {}
+[2.210495] (-) TimerEvent: {}
+[2.311005] (-) TimerEvent: {}
+[2.411543] (-) TimerEvent: {}
+[2.463961] (flipkart_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.511724] (-) TimerEvent: {}
+[2.612234] (-) TimerEvent: {}
+[2.712747] (-) TimerEvent: {}
+[2.813252] (-) TimerEvent: {}
+[2.913669] (-) TimerEvent: {}
+[2.957325] (flipkart_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.961008] (flipkart_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.013806] (-) TimerEvent: {}
+[3.020004] (flipkart_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.029967] (flipkart_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.030503] (flipkart_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.036367] (flipkart_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.099664] (flipkart_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.100546] (flipkart_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.113884] (-) TimerEvent: {}
+[3.176348] (flipkart_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.190438] (flipkart_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.191072] (flipkart_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.194255] (flipkart_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.214056] (-) TimerEvent: {}
+[3.261134] (flipkart_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.261388] (flipkart_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.314226] (-) TimerEvent: {}
+[3.414667] (-) TimerEvent: {}
+[3.514984] (-) TimerEvent: {}
+[3.571419] (flipkart_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[3.575547] (flipkart_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.600992] (flipkart_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.615093] (-) TimerEvent: {}
+[3.634206] (flipkart_msgs) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[3.715302] (-) TimerEvent: {}
+[3.815889] (-) TimerEvent: {}
+[3.916440] (-) TimerEvent: {}
+[4.018485] (-) TimerEvent: {}
+[4.119272] (-) TimerEvent: {}
+[4.219589] (-) TimerEvent: {}
+[4.320046] (-) TimerEvent: {}
+[4.420598] (-) TimerEvent: {}
+[4.521143] (-) TimerEvent: {}
+[4.621680] (-) TimerEvent: {}
+[4.722245] (-) TimerEvent: {}
+[4.822759] (-) TimerEvent: {}
+[4.923317] (-) TimerEvent: {}
+[5.023833] (-) TimerEvent: {}
+[5.124345] (-) TimerEvent: {}
+[5.224875] (-) TimerEvent: {}
+[5.325315] (-) TimerEvent: {}
+[5.425583] (-) TimerEvent: {}
+[5.525862] (-) TimerEvent: {}
+[5.626141] (-) TimerEvent: {}
+[5.726384] (-) TimerEvent: {}
+[5.826687] (-) TimerEvent: {}
+[5.927253] (-) TimerEvent: {}
+[6.027795] (-) TimerEvent: {}
+[6.128300] (-) TimerEvent: {}
+[6.228788] (-) TimerEvent: {}
+[6.329246] (-) TimerEvent: {}
+[6.429754] (-) TimerEvent: {}
+[6.530060] (-) TimerEvent: {}
+[6.630609] (-) TimerEvent: {}
+[6.731243] (-) TimerEvent: {}
+[6.831622] (-) TimerEvent: {}
+[6.932185] (-) TimerEvent: {}
+[7.032736] (-) TimerEvent: {}
+[7.133210] (-) TimerEvent: {}
+[7.233749] (-) TimerEvent: {}
+[7.307178] (flipkart_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.333856] (-) TimerEvent: {}
+[7.346976] (flipkart_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.433249] (flipkart_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.433955] (-) TimerEvent: {}
+[7.463099] (flipkart_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[7.463237] (flipkart_msgs) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/Pose.msg' doesn't exist\n"}
+[7.463298] (flipkart_msgs) StderrLine: {'line': b'  relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[7.463352] (flipkart_msgs) StderrLine: {'line': b"  '/home/manojbr/dev_ws/flipkart_msgs'\n"}
+[7.463404] (flipkart_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.463455] (flipkart_msgs) StderrLine: {'line': b'  CMakeLists.txt:21 (rosidl_generate_interfaces)\n'}
+[7.463505] (flipkart_msgs) StderrLine: {'line': b'\n'}
+[7.463555] (flipkart_msgs) StderrLine: {'line': b'\n'}
+[7.464270] (flipkart_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.464354] (flipkart_msgs) StdoutLine: {'line': b'See also "/home/manojbr/dev_ws/build/flipkart_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[7.469894] (flipkart_msgs) CommandEnded: {'returncode': 1}
+[7.488252] (flipkart_msgs) JobEnded: {'identifier': 'flipkart_msgs', 'rc': 1}
+[7.498763] (-) EventReactorShutdown: {}

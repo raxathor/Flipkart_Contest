@@ -1,0 +1,286 @@
+[0.239s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.240s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f737ffd1670>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f737ffd1670>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7380123f10>)
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.244s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/manojbr/dev_ws/src'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(radiants) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'radiants' with type 'ros.ament_python' and name 'radiants'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_usb_camera) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_usb_camera' with type 'ros.ament_cmake' and name 'usb_camera_driver'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'radiants' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'radiants' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manojbr/dev_ws/src/build/radiants', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manojbr/dev_ws/src/install/radiants', 'merge_install': False, 'path': '/home/manojbr/dev_ws/src/radiants', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manojbr/dev_ws/src/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manojbr/dev_ws/src/install/turtlesim', 'merge_install': False, 'path': '/home/manojbr/dev_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'usb_camera_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'usb_camera_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/manojbr/dev_ws/src/build/usb_camera_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/manojbr/dev_ws/src/install/usb_camera_driver', 'merge_install': False, 'path': '/home/manojbr/dev_ws/src/ros2_usb_camera', 'symlink_install': False, 'test_result_base': None}
+[0.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.282s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/manojbr/dev_ws/src/radiants' with build type 'ament_python'
+[0.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('radiants', 'ament_prefix_path')
+[0.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/radiants/share/radiants/hook/ament_prefix_path.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/radiants/share/radiants/hook/ament_prefix_path.dsv'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/radiants/share/radiants/hook/ament_prefix_path.sh'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manojbr/dev_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manojbr/dev_ws/src/ros_tutorials/turtlesim'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.296s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/manojbr/dev_ws/src/ros2_usb_camera' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/manojbr/dev_ws/src/ros2_usb_camera'
+[0.297s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.297s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.492s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/manojbr/dev_ws/src/radiants'
+[0.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.495s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manojbr/dev_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake /home/manojbr/dev_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/src/install/turtlesim
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manojbr/dev_ws/src/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake /home/manojbr/dev_ws/src/ros2_usb_camera -DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/src/install/usb_camera_driver
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manojbr/dev_ws/src/radiants': PYTHONPATH=/home/manojbr/dev_ws/src/install/radiants/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/radiants build --build-base /home/manojbr/dev_ws/src/build/radiants/build install --prefix /home/manojbr/dev_ws/src/install/radiants --record /home/manojbr/dev_ws/src/build/radiants/install.log --single-version-externally-managed
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manojbr/dev_ws/src/radiants' returned '0': PYTHONPATH=/home/manojbr/dev_ws/src/install/radiants/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/radiants build --build-base /home/manojbr/dev_ws/src/build/radiants/build install --prefix /home/manojbr/dev_ws/src/install/radiants --record /home/manojbr/dev_ws/src/build/radiants/install.log --single-version-externally-managed
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/radiants' for CMake module files
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/radiants' for CMake config files
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/radiants/lib'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/radiants/bin'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/radiants/lib/pkgconfig/radiants.pc'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/radiants/lib/python3.8/site-packages'
+[0.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('radiants', 'pythonpath')
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/radiants/share/radiants/hook/pythonpath.ps1'
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/radiants/share/radiants/hook/pythonpath.dsv'
+[0.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/radiants/share/radiants/hook/pythonpath.sh'
+[0.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radiants)
+[0.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/radiants/share/radiants/package.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manojbr/dev_ws/src/install/radiants/share/radiants/package.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/radiants/share/radiants/package.sh'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/radiants/share/radiants/package.bash'
+[0.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/radiants/share/radiants/package.zsh'
+[0.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manojbr/dev_ws/src/install/radiants/share/colcon-core/packages/radiants)
+[2.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manojbr/dev_ws/src/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake /home/manojbr/dev_ws/src/ros2_usb_camera -DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/src/install/usb_camera_driver
+[2.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manojbr/dev_ws/src/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake --build /home/manojbr/dev_ws/src/build/usb_camera_driver -- -j8 -l8
+[3.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manojbr/dev_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake /home/manojbr/dev_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/manojbr/dev_ws/src/install/turtlesim
+[3.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manojbr/dev_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake --build /home/manojbr/dev_ws/src/build/turtlesim -- -j8 -l8
+[11.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manojbr/dev_ws/src/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake --build /home/manojbr/dev_ws/src/build/usb_camera_driver -- -j8 -l8
+[11.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manojbr/dev_ws/src/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake --install /home/manojbr/dev_ws/src/build/usb_camera_driver
+[11.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_camera_driver)
+[11.772s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver' for CMake module files
+[11.773s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver' for CMake config files
+[11.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_camera_driver', 'cmake_prefix_path')
+[11.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/cmake_prefix_path.ps1'
+[11.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/cmake_prefix_path.dsv'
+[11.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/cmake_prefix_path.sh'
+[11.776s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver/lib'
+[11.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_camera_driver', 'ld_library_path_lib')
+[11.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/ld_library_path_lib.ps1'
+[11.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/ld_library_path_lib.dsv'
+[11.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/ld_library_path_lib.sh'
+[11.779s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver/bin'
+[11.779s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver/lib/pkgconfig/usb_camera_driver.pc'
+[11.779s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver/lib/python3.8/site-packages'
+[11.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.ps1'
+[11.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.dsv'
+[11.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manojbr/dev_ws/src/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake --install /home/manojbr/dev_ws/src/build/usb_camera_driver
+[11.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.sh'
+[11.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.bash'
+[11.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.zsh'
+[11.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manojbr/dev_ws/src/install/usb_camera_driver/share/colcon-core/packages/usb_camera_driver)
+[11.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_camera_driver)
+[11.826s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver' for CMake module files
+[11.827s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver' for CMake config files
+[11.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_camera_driver', 'cmake_prefix_path')
+[11.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/cmake_prefix_path.ps1'
+[11.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/cmake_prefix_path.dsv'
+[11.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/cmake_prefix_path.sh'
+[11.830s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver/lib'
+[11.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_camera_driver', 'ld_library_path_lib')
+[11.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/ld_library_path_lib.ps1'
+[11.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/ld_library_path_lib.dsv'
+[11.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/hook/ld_library_path_lib.sh'
+[11.833s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver/bin'
+[11.833s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver/lib/pkgconfig/usb_camera_driver.pc'
+[11.833s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/usb_camera_driver/lib/python3.8/site-packages'
+[11.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.ps1'
+[11.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.dsv'
+[11.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.sh'
+[11.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.bash'
+[11.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/usb_camera_driver/share/usb_camera_driver/package.zsh'
+[11.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manojbr/dev_ws/src/install/usb_camera_driver/share/colcon-core/packages/usb_camera_driver)
+[35.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manojbr/dev_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake --build /home/manojbr/dev_ws/src/build/turtlesim -- -j8 -l8
+[35.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/manojbr/dev_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake --install /home/manojbr/dev_ws/src/build/turtlesim
+[35.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[35.744s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim' for CMake module files
+[35.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/manojbr/dev_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manojbr/dev_ws/install/radiants:/opt/ros/foxy /usr/bin/cmake --install /home/manojbr/dev_ws/src/build/turtlesim
+[35.745s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim' for CMake config files
+[35.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[35.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[35.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[35.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[35.748s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim/lib'
+[35.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[35.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[35.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[35.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[35.750s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim/bin'
+[35.750s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[35.750s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim/lib/python3.8/site-packages'
+[35.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[35.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[35.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[35.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[35.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.ps1'
+[35.754s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.dsv'
+[35.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.sh'
+[35.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.bash'
+[35.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.zsh'
+[35.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manojbr/dev_ws/src/install/turtlesim/share/colcon-core/packages/turtlesim)
+[36.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[36.111s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim' for CMake module files
+[36.112s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim' for CMake config files
+[36.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[36.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[36.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[36.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[36.115s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim/lib'
+[36.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[36.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[36.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[36.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[36.117s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim/bin'
+[36.118s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[36.118s] Level 1:colcon.colcon_core.environment:checking '/home/manojbr/dev_ws/src/install/turtlesim/lib/python3.8/site-packages'
+[36.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[36.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[36.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[36.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[36.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.ps1'
+[36.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.dsv'
+[36.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.sh'
+[36.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.bash'
+[36.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/manojbr/dev_ws/src/install/turtlesim/share/turtlesim/package.zsh'
+[36.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/manojbr/dev_ws/src/install/turtlesim/share/colcon-core/packages/turtlesim)
+[36.125s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.126s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.134s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.135s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.135s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.161s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manojbr/dev_ws/src/install/local_setup.ps1'
+[36.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manojbr/dev_ws/src/install/_local_setup_util_ps1.py'
+[36.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manojbr/dev_ws/src/install/setup.ps1'
+[36.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manojbr/dev_ws/src/install/local_setup.sh'
+[36.169s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/manojbr/dev_ws/src/install/_local_setup_util_sh.py'
+[36.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manojbr/dev_ws/src/install/setup.sh'
+[36.173s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manojbr/dev_ws/src/install/local_setup.bash'
+[36.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manojbr/dev_ws/src/install/setup.bash'
+[36.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/manojbr/dev_ws/src/install/local_setup.zsh'
+[36.177s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/manojbr/dev_ws/src/install/setup.zsh'
